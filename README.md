@@ -1,8 +1,4 @@
-**CS50 SQL Final Project Overview:**
-
-This project involves creating a database for UNSTPB university, covering:
-
-- **Students**, **Professors**, **Faculties**, **Sponsoring Companies**, **Classes**, **Dining Halls**, **Courses**, and **Events**.
+My CS50 SQL final project involves developing a database designed to manage key aspects of the UNSTPB university administration. The database includes essential entities:
 
 The database supports:
 
