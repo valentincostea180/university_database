@@ -1,20 +1,36 @@
-My CS50 SQL final project involves developing a database designed to manage key aspects of the UNSTPB university administration. The database includes essential entities:
+## 🎓 UNSTPB University Database (CS50 SQL Final Project)
 
-The database supports:
+This project implements a relational database for managing core administrative data within the fictional UNSTPB university.
 
-- Students: Basic identifying information.
-- Professors: Basic identifying information.
-- Faculties: Name, location, and foundational details.
-- Sponsoring Companies: Background information.
-- Classes: Name, location, and related details.
-- Dining Halls: Name, location, and associated faculty.
-- Courses: Names and related IDs.
-- Events: Names and related IDs.
+### 📌 Overview
 
-The database handles three types of enrollments too:
+The database models essential university entities and supports tracking student enrollments across different areas such as faculties, courses, and events.
 
-- Students by faculty.
-- Students by courses.
-- Students by events.
-  
-**Out of scope**: Faculty enrollment, professor roles, faculty changes, and event management.
+### 🧱 Entities
+
+The database includes the following tables:
+
+Students – Basic identifying information
+Professors – Basic identifying information
+Faculties – Name, location, and general details
+Classes – Name, location, and related details
+Dining Halls – Name, location, and associated faculty
+Courses – Names and related IDs
+Events – Names and related IDs
+
+### 🔗 Enrollments
+
+The database supports three types of student enrollments:
+
+Students enrolled in faculties
+Students enrolled in courses
+Students enrolled in events
+
+### ⚙️ Scope
+
+This project focuses strictly on data structure and relationships between entities.
+
+### ▶️ Usage
+Load the SQL schema into your database system
+Insert data into the tables
+Run queries to explore relationships between students, faculties, courses, and events
