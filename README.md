@@ -10,21 +10,21 @@ The database models essential university entities and supports tracking student 
 
 The database includes the following tables:
 
-Students – Basic identifying information
-Professors – Basic identifying information
-Faculties – Name, location, and general details
-Classes – Name, location, and related details
-Dining Halls – Name, location, and associated faculty
-Courses – Names and related IDs
-Events – Names and related IDs
+* Students – Basic identifying information
+* Professors – Basic identifying information
+* Faculties – Name, location, and general details
+* Classes – Name, location, and related details
+* Dining Halls – Name, location, and associated faculty
+* Courses – Names and related IDs
+* Events – Names and related IDs
 
 ### 🔗 Enrollments
 
 The database supports three types of student enrollments:
 
-Students enrolled in faculties
-Students enrolled in courses
-Students enrolled in events
+* Students enrolled in faculties
+* Students enrolled in courses
+* Students enrolled in events
 
 ### ⚙️ Scope
 
